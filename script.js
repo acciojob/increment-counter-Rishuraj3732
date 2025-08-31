@@ -2,10 +2,10 @@
 const counterElement=document.getElementById("counter");
 const incrementBtn=document.getElementById("incrementBtn");
 incrementBtn.addEventListener("click",function() {
-	let currvalue=parseInt(counterElement.textContent);
-	alert("Current value before increment: " + currentValue);
+	let currValue=parseInt(counterElement.textContent);
+	alert("Current value before increment: " + currValue);
 
       // Increment the value and update paragraph
-      counterElement.textContent = currentValue + 1;
+      counterElement.textContent = currValue + 1;
 	
 })
